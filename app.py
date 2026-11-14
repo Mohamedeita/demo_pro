@@ -5,7 +5,7 @@ import joblib
 
 # إعداد الصفحة
 st.set_page_config(
-    page_title="نظام توقع المعدل التراكمي",
+    page_title="نظام توقع المعدل التراكمي التجربه الاولى ",
     page_icon="🎓",
     layout="wide"
 )
@@ -229,5 +229,5 @@ if st.button("احسب المعدل المتوقع", use_container_width=True):
 
 st.divider()
 
-st.caption("مشروع التنبؤ بالمعدل التراكمي باستخدام تعلم الآلة")
-st.caption("إعداد: Mohamed Eita")
+st.caption("تجربه الاولى لمشروع التنبؤ بالمعدل التراكمي باستخدام تعلم الآلة")
+
