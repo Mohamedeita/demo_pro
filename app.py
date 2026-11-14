@@ -12,6 +12,7 @@ st.set_page_config(
 
 # تحميل الموديل والملفات
 model = joblib.load("gpa_model.pkl")
+gpa_model = joblib.load("gpa_model_2.pkl")
 features = joblib.load("gpa_features.pkl")
 medians = joblib.load("gpa_medians.pkl")
 
